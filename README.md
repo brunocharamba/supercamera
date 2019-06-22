@@ -1,6 +1,6 @@
 # React Native Boilerplate
 
-## This project contains the basics for React Native development and some optional packages that facilitates my work.
+## This project contains the basics for React Native development and some optional packages that facilitates the work.
 
 This project contains:
 
@@ -41,7 +41,7 @@ eslint --init
 ```
 
 Wait until eslint/guides are installed.
-If you're using Yarn instead NPM, you'll need to **delete** the **package-lock.json** and run:
+If you're using Yarn instead NPM, you need to **delete** the **package-lock.json** and run:
 
 ```bash
 yarn
