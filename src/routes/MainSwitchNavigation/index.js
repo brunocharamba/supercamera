@@ -12,7 +12,7 @@ const SwitchNavigation = createSwitchNavigator(
     MainTabNavigation: MainTabNavigation
   },
   {
-    initialRouteName: 'Initial'
+    initialRouteName: 'MainTabNavigation'
   }
 )
 

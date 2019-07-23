@@ -12,7 +12,7 @@ if (__DEV__) {
       .use(asyncStorage())
       .connect()
   } else {
-    tron = Reactotron.configure({ host: '192.168.0.9' })
+    tron = Reactotron.configure({ host: '192.168.0.104' })
       .useReactNative()
       .use(reactotronRedux()) // add all built-in react native plugins
       .connect()

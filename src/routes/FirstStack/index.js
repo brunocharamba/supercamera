@@ -3,11 +3,12 @@ import { View } from 'react-native'
 import { createStackNavigator } from 'react-navigation'
 import stackHeaderStyles from '../styles'
 
-import First from '../../pages/First'
+// import First from '../../pages/First'
+import PhotoCamera from '../../pages/Camera/PhotoCamera'
 
 const FirstStack = createStackNavigator({
-  First: {
-    screen: First,
+  Photo: {
+    screen: PhotoCamera,
     navigationOptions: ({ navigation }) => ({
       headerLeft: <View />,
       headerRight: <View />,
